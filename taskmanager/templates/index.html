@@ -12,8 +12,8 @@
         <!-- top navbar-->
         <nav class="grey darken-4">
             <div class="nav-wrapper">
-              <a href="{{url_for('home')}}" class="brand-logo" color="" >Cookbook Recipes</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <a href="{{url_for('home')}}" class="brand-logo">Cookbook Recipes</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"></i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a href="{{url_for('home')}}">Home</a></li>
                 <li><a href="{{url_for('recipes')}}">Recipes</a></li>
@@ -25,11 +25,15 @@
             <li><a href="{{url_for('home')}}">Home</a></li>
             <li><a href="{{url_for('recipes')}}">Recipes</a></li>
           </ul>
+
                   
     </header>
 
     <main class="container">
+      
       <h3 class="brown lighten-1 center-align">Cookbook Recipes</h3>
+        
+      <a class="waves-effect waves-light btn-large ">Add Recipe</a>
 
         {% block content %}
         {% endblock %}
@@ -41,7 +45,7 @@
   
         <div class="footer-copyright">
           <div class="container">
-          The Collective cookbook recipe website
+          The collective cookbook recipe website
           <a class="white-text right" target="_blank">&copy; Cookbook Recipes</a>
           </div>
         </div>
