@@ -4,7 +4,7 @@ from taskmanager.models import Recipe
 
 @app.route("/")
 def home():
-    return render_template("add_recipe.html")
+    return render_template("main.html")
 
 @app.route("/recipes")
 def recipes():
