@@ -2,8 +2,8 @@
 
 ---
 ## Description
-Cookbook Recipes is a Back end web application that allows users to store and easily access cooking recipes. It contains recipe cards that include fields such asdescription of the recipe, ingredients, preparation steps, cooking time, and many more A CRUD function has been programmed, which means the user
-can create, read, update, and delete records. The website has three pages. the homepage, which has a carousel slide of recipes, The recipe page where all recipes are stored and the new recipe page where the user can create any recipe they desire. Once the recipe is created, a recipe card is stored on the recipe page. The user can also update/delete records. 
+Cookbook Recipes is a Back end web application that allows users to store and easily access cooking recipes. It contains recipe cards that include fields such asdescription of the recipe, ingredients, preparation steps, cooking time, and many more. A CRUD function is coded which means the user
+can create, locate, display, edit, and delete records. The website has three pages. the homepage, which has a carousel slide of recipes, The recipe page where all recipes are stored and the new recipe page where the user can create any recipe they desire. Once the recipe is created, a recipe card is stored on the recipe page. 
 
 ---
 ## User Experience UX
