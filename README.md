@@ -19,7 +19,7 @@ Promote a brand of cooking tools.
 
 ---
 ## Design
-   * Colour Scheme
+   ### Colour Scheme
     * The background colour for the front end application is #8d6e63 (brown lighten-1)
     * Top navbar is #212121  (grey darken-4)
     * Footer is #757575 (grey darken-1)
