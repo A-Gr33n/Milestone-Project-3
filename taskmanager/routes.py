@@ -8,7 +8,13 @@ def home():
 
 @app.route("/recipes")
 def recipes():
-    return render_template("recipes.html")
+    recipes = list(Recipe.query.order_by(Recipe.recipe_name).all())
+    return render_template("recipes.html", recipes=recipes)
+
+@app.route("/search", methods=["GET"])
+def search_recipes():
+    query = request.args.get("query")
+    
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
