@@ -10,26 +10,24 @@
 </form>
   <main class="container">
    
+    
     <div class="row">
-       {% for recipe in recipes %}
-      <div class="col s12 m5 ">
+      {% for recipe in recipes %}
+      <div class="col s12 m5">
         <div class="card">
           <div class="card-image">
-            <img src=""alt="">
+            <img src="images/sample-1.jpg">
+            <span class="card-title">{{ recipe.recipe_name }}</span>
           </div>
-          <div class="card-content  blue-grey lighten-5">
-            <span class="card-title">{{ recipe.recipe_name}}</span>
+          <div class="card-content">
             <p></p>
           </div>
-          <div class="card-action grey darken-4">
-            <a href="">More details</a>
-            <a href="">View Ingredients</a>
-            <a href="#" class="btn blue accent-4">Edit</a>
-            <a href="#" class="btn red">Delete</a>
+          <div class="card-action">
+            <a href="#"></a>
           </div>
         </div>
       </div>
-      {% endfor %}
+       {% endfor %}
     </div>
 </main>
  
