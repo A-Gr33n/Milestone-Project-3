@@ -21,12 +21,12 @@ def add_recipe():
     print(request)
     if request.method == "POST":
         recipe = Recipe(recipe_name=request.form.get("recipe_name"),
-        recipe_description=request.form.get("recipe_description"))
+        recipe_description = request.form.get("recipe_description"))
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
 
-@app.route("/edit_recipe/<int:id>", methods=["GET", "POST"])
-def edit_recipe(id):
+@app.route("/edit_recipe/recipe_id", methods=["GET", "POST"])
+def edit_recipe(recipe_id):
     return_render_template("edit_recipe.html")
