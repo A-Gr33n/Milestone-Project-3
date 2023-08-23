@@ -6,6 +6,7 @@ class Recipe(db.Model):
     recipe_name = db.Column(db.String(50), unique=True, nullable=False)
     recipe_description = db.Column(db.Text, nullable=False)
 
+
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
         return "#{0} - recipe: {1}".format(
