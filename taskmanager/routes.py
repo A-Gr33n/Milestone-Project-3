@@ -26,3 +26,7 @@ def add_recipe():
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
+
+@app.route("/edit_recipe/<int:id>", methods=["GET", "POST"])
+def edit_recipe(id):
+    return_render_template("edit_recipe.html")
