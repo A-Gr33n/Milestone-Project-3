@@ -27,6 +27,11 @@ def add_recipe():
         return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
 
-@app.route("/edit_recipe/recipe_id", methods=["GET", "POST"])
+@app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
-    return_render_template("edit_recipe.html")
+    recipe = Recipe.query.get_or_404(recipe_id)
+    if request.method == "POST":
+        recipe.recipe_name = request.form.get("recipe_name")
+        db.session.commit()
+        return redirect(url_for("recipes"))
+    return render_template("edit_recipe.html", recipe=recipe)
