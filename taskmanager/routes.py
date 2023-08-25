@@ -23,6 +23,11 @@ def add_recipe():
         recipe = Recipe(
             recipe_name = request.form.get("recipe_name"),
             recipe_description = request.form.get("recipe_description"),
+            ingredients = request.form.get("ingredients"),
+            cook_time = request.form.get("cook_time"),
+            prep_time= request.form.get("perp_time"),
+            servings = request.form.get("servings"),
+            difficulty = request.form.get("difficulty"),
             image_url = request.form.get("image_url")
         )
         db.session.add(recipe)
@@ -36,6 +41,11 @@ def edit_recipe(recipe_id):
     if request.method == "POST":
         recipe.recipe_name = request.form.get("recipe_name")
         recipe.recipe_description = request.form.get("recipe_description")
+        recipe.ingredients = request.form.get("ingredients")
+        recipe.cook_time  = request.form.get("cook_time")
+        recipe.prep_time  = request.form.get("prep_time")
+        recipe.servings   = request.form.get("servings")
+        recipe.difficulty = request.form.get("difficulty")
         recipe.image_url = request.form.get("image_url")
         db.session.commit()
         return redirect(url_for("recipes"))
