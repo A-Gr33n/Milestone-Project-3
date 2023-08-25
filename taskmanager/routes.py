@@ -20,8 +20,11 @@ def search_recipes():
 def add_recipe():
     print(request)
     if request.method == "POST":
-        recipe = Recipe(recipe_name=request.form.get("recipe_name"),
-        recipe_description = request.form.get("recipe_description"))
+        recipe = Recipe(
+            recipe_name = request.form.get("recipe_name"),
+            recipe_description = request.form.get("recipe_description"),
+            image_url = request.form.get("image_url"),
+        )
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("recipes"))
@@ -32,6 +35,8 @@ def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
     if request.method == "POST":
         recipe.recipe_name = request.form.get("recipe_name")
+        recipe.recipe_description = request.form.get("recipe_description")
+        recipe.image_url = request.form.get("image_url")
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("edit_recipe.html", recipe=recipe)

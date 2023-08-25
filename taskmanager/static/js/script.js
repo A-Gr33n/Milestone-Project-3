@@ -3,17 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
     let sidenav = document.querySelectorAll('.sidenav');
     M.Sidenav.init(sidenav);
   
-   var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
-  });
-  
   });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    M.Carousel.init({});
+  });
 
   
 
   document.addEventListener('DOMContentLoaded', function() {
-    let elems = document.querySelectorAll('.modal');
-    M.Modal.init(options);
+    var elems = document.querySelectorAll('.modal');
+    M.Modal.init(elems, {});
   });

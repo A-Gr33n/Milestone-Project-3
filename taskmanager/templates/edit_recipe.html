@@ -9,15 +9,20 @@
             
             <div class="input-field col s12">
                 
-                <input id="recipe_name" name="recipe_name" value="{{ recipe.recipe_name }}"minlength="3" maxlength="25" type="text" class="validate" required>
+                <input id="recipe_name" name="recipe_name" value="{{ recipe.recipe_name }}" minlength="3" maxlength="25" type="text" class="validate" required>
                 <label for="recipe_name">Recipe Name</label>
             
             </div>
 
             <div class="input-field col s12">
 
-                <input id="recipe_description" name="recipe_description" minlength="3" maxlength="25" type="text" class="validate" required>
+                <input id="recipe_description" name="recipe_description" value="{{ recipe.recipe_description }}" minlength="3" maxlength="25" type="text" class="validate" required>
                 <label for="recipe_description">Recipe Description</label>
+            </div>
+
+            <div class="input-field col s12">
+                <input id="image_url" name="image_url" value="{{ recipe.image_url }}" minlength="3" type="text" class="validate" required>
+                <label for="image_url">Image URL(copy & paste image link)</label>
             </div>
         </div>
         <!-- submit button -->
