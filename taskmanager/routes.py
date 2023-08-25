@@ -23,7 +23,7 @@ def add_recipe():
         recipe = Recipe(
             recipe_name = request.form.get("recipe_name"),
             recipe_description = request.form.get("recipe_description"),
-            image_url = request.form.get("image_url"),
+            image_url = request.form.get("image_url")
         )
         db.session.add(recipe)
         db.session.commit()
