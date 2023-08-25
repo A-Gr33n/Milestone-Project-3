@@ -12,20 +12,20 @@
 </div>
 
 <form>
-<div class="input-field">
-  <input id="search" type="search" placeholder="Search for recipe" required>
-  <label class="label-icon" for="search"><i class="material-icons"></i></label>
-  </div>
+  <div class="input-field">
+    <input id="search" type="search" placeholder="Search for recipe" required>
+    <label class="label-icon" for="search"><i class="material-icons"></i></label>
+    </div>
 </form>
   <main class="container">
    
     
     <div class="row">
       {% for recipe in recipes %}
-      <div class="col s12 m4">
+      <div class="col s12 m5 ">
         <div class="card  grey darken-4">
           <div class="card-image">
-            <img src="{{ recipe.image_url }}" width="100px" height="100px">
+            <img src="{{ recipe.image_url }}"  class="responsive-img">
             </div>
           <div class="card-content">
             <span class="card-title white-text">{{ recipe.recipe_name }}</span>
