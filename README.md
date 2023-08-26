@@ -102,7 +102,7 @@ If the user wants to update or change any records they've made then they can cli
 ![Edit Recipe page](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/012c1bb7-26dc-4a6a-b888-cd2d8e89c241)
 
 Once they've made ammendments the record will be updated and the user will find their new details on the same recipe page. 
-![Edit Recipe button](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/063b5e8f-4b16-4d3f-a46b-b9a5c7bdaf06)
+![Recipe edit example ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/3e8813d1-4dc3-4815-93bd-2aa78e65d741)
 
 If the user wants to delete any recipes they've made in the past then they can do this by clicking on the delete button. A modal message will popup to inform the user that if they chose to delete the recipe then they won't be able to retrive the deleted record. The user has two options, they can cancel the request meaning that the recipe will still be available for the user to view. If the user still wishes to delete the recipe they can click the delete button once again then the recipe will be deleted. 
 ![Delete recipe example](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d42ea296-7f46-4f10-9326-4dd378b1eb20)
