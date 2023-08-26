@@ -39,6 +39,8 @@ Promote a brand of cooking tools.
 ---
 ## Frameworks
  * Materialize 1.0
+   Materialize is a modern responsive CSS framework based on Materialize Design which was used for this project mainly for
+   the website's responsiveness. 
 ---
 ## Wireframes 
 ![New Wireframe 1](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0e202e17-0472-41c5-86cb-353694c3c958)
