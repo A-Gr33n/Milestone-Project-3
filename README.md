@@ -10,12 +10,12 @@ can create, locate, display, edit, and delete records. The website has three pag
 
 ### User's goal
 
- The website's purpose is to allow the user to find share update and delete recipes. 
+ * The website's purpose is to allow the user to find share update and delete recipes. 
 
 
 ### Site owner's goal 
 
-Promote a brand of cooking tools.
+* Promote a brand of cooking tools.
 
 ---
 ## Design
@@ -73,8 +73,39 @@ All Python codes were tested using CI Python Linter here are screenshots of the 
 ![models file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/18b4c82c-cfdd-4272-b7d9-7eb15f5a7d11)
 ![run py file test results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a52f1c7b-7323-4a26-a140-56ba03ed6e7f)
 
+### Lighthouse Performance 
+![Home page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a504b2ca-f3b4-4c46-ada7-ddf3c30ff9ed)
+![Recipe Page lighthouse status ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/5bd8bb84-c360-49d3-9ca4-a09dd1800d01)
+![New Recipe page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0554b464-5f8d-439a-ab98-2242e9ca6519)
 
+### Testing User Expeerience UX
+### User Goal
 
+* The website's purpose is to allow the user to find share update and delete recipes. 
+
+For the user to add a recipe they will need to click on the recipe tab on the navigation bar. They will be direct to the recipe page where the will see a add recipe button.
+![recipe page (add recipe button)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/f0cb2895-aa4f-415d-8ad8-f7685ec10581)
+
+The user will be required to fill out a recipe form.
+![Recipe Form ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/e256e2ef-f7dd-4505-8997-eb6c799beea0)
+
+Once the recipe form is filled the user can click on the submit button.
+![Submit Recipe button ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/79c1e02a-f8b8-4b1d-bb28-214cd7402b3f)
+
+Then the user will be redirected back to the recipe page showing the all recipe details the user applied on the form. Here is an example on how it would look
+![Recipe record added to recipe page](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/fb948d9f-b484-4ed9-9292-d36b336dcd9e)
+
+At the very end of the recipe record the user will see the edit and delete button. 
+![Edit   Delete buttons ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/6dbff3d0-0729-4645-91b7-75117c049d24)
+
+If the user wants to update or change any records they've made then they can click on the edit button it will direct them to the edit recipe page.
+![Edit Recipe page](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/012c1bb7-26dc-4a6a-b888-cd2d8e89c241)
+
+Once they've made ammendments the record will be updated and the user will find their new details on the same recipe page. 
+![Edit Recipe button](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/063b5e8f-4b16-4d3f-a46b-b9a5c7bdaf06)
+
+If the user wants to delete any recipes they've made in the past then they can do this by clicking on the delete button. A modal message will popup to inform the user that if they chose to delete the recipe then they won't be able to retrive the deleted record. The user has two options, they can cancel the request meaning that the recipe will still be available for the user to view. If the user still wishes to delete the recipe they can click the delete button once again then the recipe will be deleted. 
+![Delete recipe example](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d42ea296-7f46-4f10-9326-4dd378b1eb20)
 
 ---
 
