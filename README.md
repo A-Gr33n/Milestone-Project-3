@@ -72,7 +72,9 @@ All Python codes were tested using CI Python Linter here are screenshots of the 
 ![models file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/18b4c82c-cfdd-4272-b7d9-7eb15f5a7d11)
 ![run py file test results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a52f1c7b-7323-4a26-a140-56ba03ed6e7f)
 
-### Lighthouse Performance 
+### Lighthouse Performance
+The website's responsiveness and performance was tested using Lighthouse. The website overall perfomance averages around 97-98 screenshots
+are provided below. 
 ![Home page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a504b2ca-f3b4-4c46-ada7-ddf3c30ff9ed)
 ![Recipe Page lighthouse status ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/5bd8bb84-c360-49d3-9ca4-a09dd1800d01)
 ![New Recipe page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0554b464-5f8d-439a-ab98-2242e9ca6519)
