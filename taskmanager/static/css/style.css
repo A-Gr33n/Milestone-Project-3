@@ -1,4 +1,4 @@
-
+ /* Webpage Structure */
 body {
     display: flex;
     min-height: 100vh;
@@ -9,6 +9,8 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  /* Carousel Sliders */
       
   .first_image{
     height 100%;

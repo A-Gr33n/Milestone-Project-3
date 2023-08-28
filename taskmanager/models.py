@@ -1,7 +1,7 @@
 from taskmanager import db
 
 class Recipe(db.Model):
-    # 
+    # Custom Models
     id = db.Column(db.Integer, primary_key=True)
     recipe_name = db.Column(db.String(50), unique=True, nullable=False)
     recipe_description = db.Column(db.Text, nullable=False)

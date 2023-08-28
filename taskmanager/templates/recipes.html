@@ -1,60 +1,55 @@
 {% extends "base.html" %}
 {% block content %}
-
+<!-- heading-->
 <h3 class="center-align ">Recipes</h3>
-
+<!-- add recipe button-->
 <div class="row">
   <div class="col s12 center-align">
-      <a href="{{ url_for('add_recipe') }}" class="btn-large grey darken-4">
-          Add Recipe <i class="fas fa-plus-square right"></i>
-      </a>
+    <a href="{{ url_for('add_recipe') }}" class="btn-large grey darken-4">
+      Add Recipe <i class="fas fa-plus-square right"></i>
+    </a>
   </div>
 </div>
-
-
-  <main class="container">
-   
-    
-    <div class="row">
-      {% for recipe in recipes %}
-      <div class="col s12 m4">
-        <div class="card  grey darken-4">
-          <div class="card-image">
-            <img src="{{ recipe.image_url }}"  class="responsive-img">
-            </div>
-          <div class="card-content">
-            <span class="card-title white-text">{{ recipe.recipe_name }}</span>
-            <p class="white-text">{{ recipe.recipe_description }}</p>
-            <p class="white-text">{{ recipe.ingredients }}</p>
-            <p class="white-text">{{ recipe.cook_time }}</p>
-            <p class="white-text">{{ recipe.prep_time }}</p>
-            <p class="white-text">{{ recipe.servings }}</p>
-            <p class="white-text">{{ recipe.difficulty }}</p>
-            <p class="white-text">{{ recipe.image_url }}</p>
-            </div>
-          
-          <div class="card-action">
-            <a href="{{ url_for('edit_recipe', recipe_id=recipe.id) }}" class="btn blue accent-4">Edit</a>
-            <a href="#modal-{{ recipe.id }}" class="btn red modal-trigger">Delete</a>
-            
-            <!-- Modal -->
-            <div id="modal-{{ recipe.id }}" class="modal">
-              <div class="modal-content"> 
-                <h4>Are you sure want to delete this Recipe?</h4>
-                <p>This action cannot be undone</p>
+<main class="container">
+  <!-- Card for recipe-->
+  <div class="row">
+    {% for recipe in recipes %}
+    <div class="col s12 m4">
+      <div class="card  grey darken-4">
+        <div class="card-image">
+          <img src="{{ recipe.image_url }}" class="responsive-img">
+        </div>
+        <div class="card-content">
+          <span class="card-title white-text">{{ recipe.recipe_name }}</span>
+          <p class="white-text">{{ recipe.recipe_description }}</p>
+          <p class="white-text">{{ recipe.ingredients }}</p>
+          <p class="white-text">{{ recipe.cook_time }}</p>
+          <p class="white-text">{{ recipe.prep_time }}</p>
+          <p class="white-text">{{ recipe.servings }}</p>
+          <p class="white-text">{{ recipe.difficulty }}</p>
+          <p class="white-text">{{ recipe.image_url }}</p>
+        </div>
+        <!-- Modal Trigger -->
+        <div class="card-action">
+          <a href="{{ url_for('edit_recipe', recipe_id=recipe.id) }}" class="btn blue accent-4">Edit</a>
+          <a href="#modal-{{ recipe.id }}" class="btn red modal-trigger">Delete</a>
+          <!-- Modal Structure -->
+          <div id="modal-{{ recipe.id }}" class="modal">
+            <div class="modal-content">
+              <h4>Are you sure want to delete this Recipe?</h4>
+              <p>This action cannot be undone</p>
             </div>
             <div class="modal-footer">
               <a href="{{ url_for('delete_recipe', recipe_id=recipe.id) }}" class="btn red">Delete</a>
               <a href="#!" class="modal-close btn blue accent-4">Cancel</a>
             </div>
-           </div>
-            </div>
           </div>
         </div>
       </div>
-       {% endfor %}
     </div>
+  </div>
+  {% endfor %}
+  </div>
 </main>
- 
-{% endblock %}  
-  
+
+{% endblock %}

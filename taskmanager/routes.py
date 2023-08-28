@@ -1,16 +1,16 @@
 from flask import render_template, request, redirect, url_for
 from taskmanager import app, db
 from taskmanager.models import Recipe
-
+# Home
 @app.route("/")
 def home():
     return render_template("main.html")
-
+#Recipe
 @app.route("/recipes")
 def recipes():
     recipes = list(Recipe.query.order_by(Recipe.recipe_name).all())
     return render_template("recipes.html", recipes=recipes)
-
+# Add recipe
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
     print(request)
@@ -29,7 +29,7 @@ def add_recipe():
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
-
+# Edit Recipe
 @app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
@@ -45,7 +45,7 @@ def edit_recipe(recipe_id):
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("edit_recipe.html", recipe=recipe)
-
+# Delete Recipe
 @app.route("/delete_recipe/<int:recipe_id>")
 def delete_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
