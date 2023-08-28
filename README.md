@@ -38,8 +38,7 @@ can create, locate, display, edit, and delete records. The website has three pag
    * PostgreSQL
 ---
 ## Frameworks
- * Materialize 1.0
-   Materialize is a modern responsive CSS framework based on Materialize Design which was used for this project mainly for
+ * Materialize 1.0- Materialize is a modern responsive CSS framework based on Materialize Design which was used for this project mainly for
    the website's responsiveness. 
 ---
 ## Wireframes 
