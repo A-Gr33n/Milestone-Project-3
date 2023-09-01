@@ -122,6 +122,7 @@ If the user wants to delete any recipes they've made in the past then they can d
 The whole purpose for this project is to build back end application for the user to manipulate data. Gitpod only assigns to front end applications so we need to deploy the website via Heroku which operates back end applications. 
 
  To deploy this project you'll need to:
+ 
   1.Go to Heroku and navigate to the Deploy tab
   1.In the deployment method section, select "Connect to GitHub" 
   1.Search for your repo and click Connect  1.Click Enable Automatic Deploys 
