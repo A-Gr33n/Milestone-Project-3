@@ -124,12 +124,12 @@ The whole purpose for this project is to build back end application for the user
  To deploy this project you'll need to:
  
   1.Go to Heroku and navigate to the Deploy tab
-  1.In the deployment method section, select "Connect to GitHub" 
-  1.Search for your repo and click Connect  1.Click Enable Automatic Deploys 
-  1.In the Manual deploy , select Deploy Branch
-  1.Click on the "more" (dropdown) button and select "Run Console"
-  1.Type python3 into the console and click Run
-  1.Once the app is up and running so click on the "Open app"
+  2.In the deployment method section, select "Connect to GitHub" 
+  3.Search for your repo and click Connect  1.Click Enable Automatic Deploys 
+  4.In the Manual deploy , select Deploy Branch
+  5.Click on the "more" (dropdown) button and select "Run Console"
+  6.Type python3 into the console and click Run
+  7.Once the app is up and running so click on the "Open app"
 
 ---
 ## Credits
