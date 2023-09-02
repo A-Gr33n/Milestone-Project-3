@@ -1,4 +1,5 @@
 # Cookbook Recipes 
+![Am I Responsive screenshot](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/8ed614f5-dfbc-475b-9d9f-70b3dc047429)
 
 ---
 ## Description
@@ -127,7 +128,7 @@ The whole purpose for this project is to build back end application for the user
  
   1. Go to Heroku and navigate to the Deploy tab
   2. In the deployment method section, select "Connect to GitHub" 
-  3. Search for your repo and click Connect  1.Click Enable Automatic Deploys 
+  3. Search for this repo by typing Milestone Project 3 and click Connect  1.Click Enable Automatic Deploys 
   4. In the Manual deploy , select Deploy Branch
   5. Click on the "more" (dropdown) button and select "Run Console"
   6. Type python3 into the console and click Run
@@ -135,4 +136,7 @@ The whole purpose for this project is to build back end application for the user
 
 ---
 ## Credits
-
+ * Materialize 1.0
+    - Materialize was majoritively used to build the design of application and to keep it responive
+ * Pexels.com
+    - Pexels.com provided free photos to create the carousel for the home page 
