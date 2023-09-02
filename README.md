@@ -57,6 +57,8 @@ can create, locate, display, edit, and delete records. The website has three pag
 
 ---
 ## Relationship Diagram (SQL)
+This is a rough draft of the relationship diagram. This was to give an idea to provide a structure of the relationships ids, though not all relationships 
+were used.
 ![drawSQL-recipe-diagram-export-2023-08-16](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/affc501c-67e3-442a-8442-b1f5eb7baff6)
 
 ---
