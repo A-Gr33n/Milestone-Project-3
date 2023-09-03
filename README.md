@@ -4,8 +4,7 @@
 
 ---
 ## Description
-Cookbook Recipes is a Back end web application created using a relational database that allows users to store and easily access cooking recipes. It contains recipe cards that include fields such as description of the recipe, ingredients, preparation steps, cooking time, and many more. A CRUD function is coded which means the user
-can create, locate, display, edit, and delete records. The website has three pages. the homepage, which has a carousel slide of recipes, The recipe page where all recipes are stored and the new recipe page where the user can create any recipe they desire. Once the recipe is created, a recipe card is stored on the recipe page. 
+Cookbook Recipes is a Back end web application created using a relational database that allows users to store and easily access cooking recipes. It contains recipe cards that include fields such as description of the recipe, ingredients, preparation steps, cooking time, and many more. A CRUD function is coded, which means the user can create, locate, display, edit, and delete records. The website has three pages: the homepage, which has a carousel slide of recipes, the recipe page where all recipes are stored and the new recipe page where the user can create any recipe they desire. Once the recipe is created, a recipe card is stored on the recipe page. 
 
 ---
 ## User Experience UX
@@ -130,13 +129,13 @@ The whole purpose for this project is to build a back end application for the us
   1. Go to Heroku and navigate to the Deploy tab
   2. In the deployment method section, select "Connect to GitHub" 
   3. Search for this repo by typing Milestone Project 3 and click Connect
-  4.Click Enable Automatic Deploys 
+  4. Click Enable Automatic Deploys 
   5. In the Manual deploy , leave the branch on main and select Deploy Branch
   6. Click on the "more" (dropdown) button and select "Run Console"
   7. Type python3 into the console and click Run
   8. A terminal will show up in the terminal type in the command "from taskmanager import db" then "db.create_all()"
   9. Exit the Python terminal, by typing "exit()" and hitting enter, and close the console. 
-  10. Once the app is up and running so click on the "Open app" then the app will run. 
+  10. Once the app is up and running, click on the "Open app" then the app will run. 
 
 ---
 ## Credits
