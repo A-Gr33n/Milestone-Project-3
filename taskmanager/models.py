@@ -8,13 +8,12 @@ class Recipe(db.Model):
     ingredients = db.Column(db.Text, nullable=True)
     cook_time = db.Column(db.Text, nullable=True)
     prep_time = db.Column(db.Text, nullable=True)
-    servings =  db.Column(db.Text, nullable=True)
-    difficulty =db.Column(db.Text, nullable=True) 
+    servings = db.Column(db.Text, nullable=True)
+    difficulty = db.Column(db.Text, nullable=True) 
     image_url = db.Column(db.Text, nullable=True)
-
 
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
         return "#{0} - recipe: {1}".format(
             self.id, self.recipe_name, self.is_urgent
-        )
+            )

@@ -5,7 +5,7 @@ from taskmanager.models import Recipe
 @app.route("/")
 def home():
     return render_template("main.html")
-#Recipe
+# Recipe
 @app.route("/recipes")
 def recipes():
     recipes = list(Recipe.query.order_by(Recipe.recipe_name).all())
@@ -37,9 +37,9 @@ def edit_recipe(recipe_id):
         recipe.recipe_name = request.form.get("recipe_name")
         recipe.recipe_description = request.form.get("recipe_description")
         recipe.ingredients = request.form.get("ingredients")
-        recipe.cook_time  = request.form.get("cook_time")
-        recipe.prep_time  = request.form.get("prep_time")
-        recipe.servings   = request.form.get("servings")
+        recipe.cook_time = request.form.get("cook_time")
+        recipe.prep_time = request.form.get("prep_time")
+        recipe.servings = request.form.get("servings")
         recipe.difficulty = request.form.get("difficulty")
         recipe.image_url = request.form.get("image_url")
         db.session.commit()
