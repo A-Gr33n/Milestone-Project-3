@@ -1,5 +1,6 @@
 from taskmanager import db
 
+
 class Recipe(db.Model):
     # Custom Models
     id = db.Column(db.Integer, primary_key=True)
@@ -16,4 +17,4 @@ class Recipe(db.Model):
         # __repr__ to represent itself in the form of a string
         return "#{0} - recipe: {1}".format(
             self.id, self.recipe_name, self.is_urgent
-            )
+        )
