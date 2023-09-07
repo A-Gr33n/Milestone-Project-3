@@ -68,12 +68,37 @@ This is a rough draft of the relationship diagram. Even though all relationships
 
 ### CI Python Linter
 
-All Python codes were tested using CI Python Linter here are screenshots of the results
+All Python codes were tested using CI Python Linter here are screenshots of the error results
 ![init_py file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/f3adbc61-bfd2-4477-b259-bd19d6564fa4)
 ![routes file test results 2 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/8aed67c7-d035-44a3-b17f-6a3397756a1c)
 ![routes file test results 1](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/55ed35ed-ffe6-4aaf-9967-316a6138d1d1)
 ![models file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/18b4c82c-cfdd-4272-b7d9-7eb15f5a7d11)
-![run py file test results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a52f1c7b-7323-4a26-a140-56ba03ed6e7f)
+![run py file test results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a52f1c7b-7323-4a26-a140-56ba03ed6e7f) 
+
+These are the screenshots that show resolved errors
+![init py no errors](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/49b3bf8d-c594-40d5-b5cd-e65146007b50) 
+![no errors route py file ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d9e53a9a-1938-459d-8342-d081653491e6)
+![run py no errors found ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/b3ec0e0a-02db-407c-ba75-4b554ce04e24)
+![models (modified) ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/015afc4e-b546-4d68-836b-5fc4cfab84b5)
+
+### JS HINT 
+JS Hint was used to test JavaScript codes and came up with these results shown below 
+![js validator](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d8548f0e-91dc-4665-ab1c-6ec39c4d0996) 
+
+Here is the modified verison of JavaScript code. All errors of code couldn't be fixed due to the style of code materialize structures
+it.
+![js validator (modified)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/b4ca1dfa-e810-494f-9e6a-42a06cf3f61c)
+
+
+### W3C Validators (HTML/CSS) 
+All Html and CSS was tested and it came up with these errors shown below
+![Html validator 1 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/4bdee8a7-d985-4e06-b9bc-d552c0e875cd)
+![html validator 2](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/005a5ff7-30bc-431e-946e-476a3a08685c)
+![CSS validator 3 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/dd4fb4dd-57cc-43b3-b4da-5cd53063c34a) 
+
+Here are screenshots of no errors found for both Html and CSS
+![No errors Html Validator ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0d60fbfc-6c2e-4acf-86dd-5f3c7c8db347)
+![Css validator no errors found ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a8cb1508-fd82-4544-80b3-333e6a43610c)
 
 ### Lighthouse Performance
 The website's responsiveness and performance was tested using Lighthouse. The website overall perfomance averages around 97-98 screenshots
@@ -135,7 +160,12 @@ The whole purpose for this project is to build a back end application for the us
   7. Type python3 into the console and click Run
   8. A terminal will show up in the terminal type in the command "from taskmanager import db" then "db.create_all()"
   9. Exit the Python terminal, by typing "exit()" and hitting enter, and close the console. 
-  10. Once the app is up and running, click on the "Open app" then the app will run. 
+  10. Once the app is up and running, click on the "Open app" then the app will run.
+
+## DEBUG MODE 
+Before deployment Debug mode was turn off by setting it to false to ensure that no errors will appear when opening the app. Here
+is a screenshot to show that Debug mode is turned off. 
+![Debug Mode turn off ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/027c272d-fb4c-433e-b268-a6e74934fa85)
 
 ---
 ## Credits
