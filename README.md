@@ -58,7 +58,7 @@ Cookbook Recipes is a Back end web application created using a relational databa
 
 ---
 ## Relationship Diagram (SQL)
-This is a rough draft of the relationship diagram. Even though all relationships weren't used, this was to give an idea to provide a structure of the relationships ids, .
+This is a rough draft of the relationship diagram. Even though all relationships wasn't used, this was to give an idea to provide a structure for the relationships ids.
 
 ![drawSQL-recipe-diagram-export-2023-08-16](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/affc501c-67e3-442a-8442-b1f5eb7baff6)
 
@@ -86,17 +86,17 @@ JS Hint was used to test JavaScript codes and came up with these results shown b
 ![js validator](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d8548f0e-91dc-4665-ab1c-6ec39c4d0996) 
 
 Here is the modified verison of JavaScript code. All errors of code couldn't be fixed due to the style of code materialize structures
-it.
+its code.
 ![js validator (modified)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/b4ca1dfa-e810-494f-9e6a-42a06cf3f61c)
 
 
-### W3C Validators (HTML/CSS) 
-All Html and CSS was tested and it came up with these errors shown below
+### W3C Validation (HTML/CSS) 
+All Html and CSS was tested using w3c validation and it came up with these errors shown below.
 ![Html validator 1 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/4bdee8a7-d985-4e06-b9bc-d552c0e875cd)
 ![html validator 2](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/005a5ff7-30bc-431e-946e-476a3a08685c)
 ![CSS validator 3 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/dd4fb4dd-57cc-43b3-b4da-5cd53063c34a) 
 
-Here are screenshots of no errors found for both Html and CSS
+Here are screenshots of no errors found for both Html and CSS.
 ![No errors Html Validator ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0d60fbfc-6c2e-4acf-86dd-5f3c7c8db347)
 ![Css validator no errors found ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a8cb1508-fd82-4544-80b3-333e6a43610c)
 
@@ -124,7 +124,7 @@ Once the recipe form is filled the user can click on the submit button.
 
 ![Submit Recipe button ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/79c1e02a-f8b8-4b1d-bb28-214cd7402b3f)
 
-Then the user will be redirected back to the recipe page showing the all recipe details the user applied on the form. Here is an example on how it would look
+Then the user will be redirected back to the recipe page showing all the recipe details the user applied on the form. Here is an example on how it would look
 
 ![Recipe record added to recipe page](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/fb948d9f-b484-4ed9-9292-d36b336dcd9e)
 
