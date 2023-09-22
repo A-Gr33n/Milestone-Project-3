@@ -1,50 +1,50 @@
 {% extends "base.html" %}
 {% block content %}
 <!-- Heading-->
-<h3 class="center-align">Add New Recipe</h3>
+<h3 class="center-align add-recipe-title">Add New Recipe</h3>
 <!-- Add Recipe Form -->
-<div class="row card-panel blue-grey lighten-4">
+<div class="row card-panel blue lighten-5">
     <form class="col s12" method="POST" action="{{url_for('add_recipe')}}">
         <div class="row">
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="recipe_name" name="recipe_name" type="text" class="validate" required>
                 <label for="recipe_name">Recipe Name</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
 
                 <input id="recipe_description" name="recipe_description" type="text" class="validate" required>
                 <label for="recipe_description">Recipe Description</label>
             </div>
 
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="ingredients" name="ingredients" type="text" class="validate" required>
                 <label for="ingredients">Ingredients</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="cook_time" name="cook_time" type="text" class="validate" required>
                 <label for="cook_time">Cook Time</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="prep_time" name="prep_time" type="text" class="validate" required>
                 <label for="prep_time">Prepartion Time</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="servings" name="servings" type="text" class="validate" required>
                 <label for="servings">Servings(eg. 1, 2)</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="difficulty" name="difficulty" type="text" class="validate" required>
                 <label for="difficulty">Difficulty(Easy, Medium, Hard)</label>
             </div>
 
-            <div class="input-field col s12">
+            <div class="input-field col s12 input-field label">
                 <input id="image_url" name="image_url" type="text" class="validate">
                 <label for="image_url">Image URL(optional, copy & paste image link)</label>
             </div>

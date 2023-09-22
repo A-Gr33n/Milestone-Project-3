@@ -2,14 +2,31 @@
 {% block content %}
 
 <!-- heading-->
-<h3 class="center-align">Cookbook Recipes</h3>
+<h3 class="center-align home-title">Cookbook Recipes</h3>
 
 <!-- subheading-->
-<p class="center-align">Welcome to Coobook Recipes, feel free to make your own recipe</p>
+<p class="center-align home-page-paragraph">Welcome to Coobook Recipes, 
+   where your creativity meets the kitchen! On this recipe website, 
+   you have the power to explore a world of flavors, 
+   access a treasure trove of delicious recipes, 
+   and embark on your culinary adventures. 
+   But that's not all  we put the chef's hat in your hands with our unique recipe builder feature. 
+   Create your own mouthwatering masterpieces, customize ingredients, and share your culinary genius with the world. 
+   Whether you're a seasoned chef or a novice in the kitchen, our platform is your canvas to craft and share your culinary vision. 
+   Join our vibrant community of food enthusiasts and let's cook up something amazing together!"</p>
+
+   <!-- add recipe button-->
+<div class="row">
+  <div class="col s12 center-align">
+    <a href="{{ url_for('add_recipe') }}" class="btn-large grey darken-4">
+      Click here to Add Recipe <i class="fas fa-plus-square right"></i>
+    </a>
+  </div>
+</div>
 
 <!-- carousel-->
 <div class="carousel carousel-slider center">
-  <div class="carousel-item center">
+  <div class="carousel-item center container">
     <img
       src="https://images.pexels.com/photos/998246/pexels-photo-998246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Pasta Carbonara" class="first_image">
