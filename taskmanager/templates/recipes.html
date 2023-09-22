@@ -7,7 +7,7 @@
   <!-- Card for recipe-->
   <div class="row">
     {% for recipe in recipes %}
-    <div class="col s12 m4">
+    <div class="col s12 m4  sticky-action">
       <div class="card  grey darken-4">
         <div class="card-image">
           <img src="{{ recipe.image_url }}" class="responsive-img">
@@ -15,12 +15,21 @@
         <div class="card-content">
           <span class="card-title white-text">{{ recipe.recipe_name }}</span>
           <p class="white-text">{{ recipe.recipe_description }}</p>
+          <div class="card-action">
+            <a href="#">Ingredients</a>
+            <a href="#">CookTime</a>
+            <a href="#">Preperation Time</a>
+            <a href="#">Servings</a>
+            <a href="#">Difficulty</a>
+          </div>
+
+    <div class="card-reveal">
           <p class="white-text">{{ recipe.ingredients }}</p>
           <p class="white-text">{{ recipe.cook_time }}</p>
           <p class="white-text">{{ recipe.prep_time }}</p>
           <p class="white-text">{{ recipe.servings }}</p>
           <p class="white-text">{{ recipe.difficulty }}</p>
-          <p class="white-text">{{ recipe.image_url }}</p>
+        </div>
         </div>
         <!-- Modal Trigger -->
         <div class="card-action">
