@@ -10,11 +10,11 @@ Cookbook Recipes is a Back end web application created using a relational databa
 ## User Experience UX
 
 ### User Stories
-1.As a first-time visitor, I want clear and intuitive navigation and user interfaces that make it easy for me to interact with and enjoy the website's features.
-2.As a first-time visitor, I want to view detailed recipe pages with clear instructions, ingredient lists, and images to help me decide which recipe to try.
-3.As a first-time vistor I want to create recipes and would like to know where the recipes are stored.  
-4.As a first-time and returning user, I want to edit and update my created recipes whenever I discover improvements or variations.
-5.As a first-time visitor and returning user, I want to easily delete any recipes I've created that I no longer wish to keep on the website.
+1. As a first-time visitor, I want clear and intuitive navigation and user interfaces that make it easy for me to interact with and enjoy the website's features.
+2. As a first-time visitor, I want to view detailed recipe pages with clear instructions, ingredient lists, and images to help me decide which recipe to try.
+3. As a first-time vistor I want to create recipes and would like to know where the recipes are stored.  
+4. As a first-time and returning user, I want to edit and update my created recipes whenever I discover improvements or variations.
+5. As a first-time visitor and returning user, I want to easily delete any recipes I've created that I no longer wish to keep on the website.
 
 ### User's goal
 
