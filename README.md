@@ -9,14 +9,16 @@ Cookbook Recipes is a Back end web application created using a relational databa
 ---
 ## User Experience UX
 
+### User Stories
+1.As a first-time visitor, I want clear and intuitive navigation and user interfaces that make it easy for me to interact with and enjoy the website's features.
+2.As a first-time visitor, I want to view detailed recipe pages with clear instructions, ingredient lists, and images to help me decide which recipe to try.
+3.As a first-time vistor I want to create recipes and would like to know where the recipes are stored.  
+4.As a first-time and returning user, I want to edit and update my created recipes whenever I discover improvements or variations.
+5.As a first-time visitor and returning user, I want to easily delete any recipes I've created that I no longer wish to keep on the website.
+
 ### User's goal
 
  * The website's purpose is to allow the user to find share update and delete recipes. 
-
-
-### Site owner's goal 
-
-* Promote a brand of cooking tools.
 
 ---
 ## Design
@@ -113,41 +115,40 @@ are provided below.
 ![New Recipe page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0554b464-5f8d-439a-ab98-2242e9ca6519)
 
 ### Testing User Expeerience UX
+
 ### User Goal
 
 * The website's purpose is to allow the user to find share update and delete recipes. 
 
 For the user to add a recipe they will need to click on the recipe tab on the navigation bar. They will be direct to the recipe page where the will see a add recipe button.
 
-![recipe page (add recipe button)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/f0cb2895-aa4f-415d-8ad8-f7685ec10581)
 
 The user will be required to fill out a recipe form.
 
-![Recipe Form ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/e256e2ef-f7dd-4505-8997-eb6c799beea0)
+
 
 Once the recipe form is filled the user can click on the submit button.
 
-![Submit Recipe button ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/79c1e02a-f8b8-4b1d-bb28-214cd7402b3f)
 
 Then the user will be redirected back to the recipe page showing all the recipe details the user applied on the form. Here is an example on how it would look
 
-![Recipe record added to recipe page](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/fb948d9f-b484-4ed9-9292-d36b336dcd9e)
+
 
 At the very end of the recipe record the user will see the edit and delete button. 
 
-![Edit   Delete buttons ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/6dbff3d0-0729-4645-91b7-75117c049d24)
+
 
 If the user wants to update or change any records they've made then they can click on the edit button it will direct them to the edit recipe page.
 
-![Edit Recipe page](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/012c1bb7-26dc-4a6a-b888-cd2d8e89c241)
+
 
 Once they've made ammendments the record will be updated and the user will find their new details on the same recipe page. 
 
-![Recipe edit example ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/3e8813d1-4dc3-4815-93bd-2aa78e65d741)
+
 
 If the user wants to delete any recipes they've made in the past then they can do this by clicking on the delete button. A modal message will popup to inform the user that if they chose to delete the recipe then they won't be able to retrive the deleted record. The user has two options, they can cancel the request meaning that the recipe will still be available for the user to view. If the user still wishes to delete the recipe they can click the delete button once again then the recipe will be deleted. 
 
-![Delete recipe example](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d42ea296-7f46-4f10-9326-4dd378b1eb20)
+
 
 ---
 
