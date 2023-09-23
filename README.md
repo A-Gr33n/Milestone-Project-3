@@ -176,18 +176,6 @@ is a screenshot to show that Debug mode is turned off.
  ### Media
  
  * Pexels.com
-    - Pexels.com provided free photos to create the carousel for the home page 
+    - Pexels.com provided free photos to create the carousel for the home page and the background image.
 
- * /*credit:code for setting background color/pattern https://css-tricks.com/a-few-background-patterns-sites/
-      <p> body{
-       <p> --stripe: #cfd8dc;
-       <p> --bg: #e1e1e1;
-  
-      <p> background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
-      <p> linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
-      <p> linear-gradient(315deg, var(--bg) 25%, transparent 25%),
-      <p> linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-      <p> background-size: 100px 100px;
-      <p>background-color: var(--stripe);
-  }
 

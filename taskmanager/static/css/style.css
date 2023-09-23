@@ -10,9 +10,9 @@ body {
       linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
       linear-gradient(315deg, var(--bg) 25%, transparent 25%),
       linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-    background-size: 100px 100px;
+    background-size: 1700px ;
     background-color: var(--stripe);
-  
+    background-image: url(https://images.pexels.com/photos/1191639/pexels-photo-1191639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
   }
 
   main {
