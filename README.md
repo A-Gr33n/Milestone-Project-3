@@ -1,6 +1,6 @@
 # Cookbook Recipes 
 
-![Am I Responsive screenshot](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/8ed614f5-dfbc-475b-9d9f-70b3dc047429)
+
 
 ---
 ## Description
