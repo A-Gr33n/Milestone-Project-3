@@ -21,9 +21,12 @@ Cookbook Recipes is a Back end web application created using a relational databa
 ---
 ## Design
    ### Colour Scheme
-    * The background colour for the front end application is #8d6e63 (brown lighten-1)
-    * Top navbar is #212121  (grey darken-4)
-    * Footer is #757575 (grey darken-1)
+   * A background image showing a close up of cakes was used for the front end material 
+   * Top navbar is colour #212121 (grey darken-4) with white text
+   * Footer is colour #212121 (grey darken-4)   with white text
+   * Form on add recipe page is colour #e3f2fd (blue lighten-5) with black text
+   * Card is colour #212121 (grey darken-4) with white text and contains the edit button #2962ff  (btn blue accent-4) 
+    and delete button (btn red)
 ---
 ## Features
   * Responsive on all device sizes 
@@ -58,8 +61,10 @@ Cookbook Recipes is a Back end web application created using a relational databa
 
 ---
 ## Relationship Diagram (SQL)
-This is a rough draft of the relationship diagram. Even though all relationships wasn't used, this was to give an idea to provide a structure for the relationships ids.
+This the current setup of the relationship diagram used to build the relationship ids for the application.
+![drawSQL-recipe-diagram-export-2023-09-23](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/e9c0ac21-efd0-4a8c-94d5-37bb5943c916)
 
+This setup would be used for future developments to present additional elements.   
 ![drawSQL-recipe-diagram-export-2023-08-16](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/affc501c-67e3-442a-8442-b1f5eb7baff6)
 
 ---
