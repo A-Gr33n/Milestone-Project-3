@@ -23,7 +23,7 @@ Cookbook Recipes is a Back end web application created using a relational databa
 ---
 ## Design
    ### Colour Scheme
-   * A background image showing a close up of cakes was used for the front end material 
+   * A background colour of --stripe: #cfd8dc; , bg: #e1e1e1;
    * Top navbar is colour #212121 (grey darken-4) with white text
    * Footer is colour #212121 (grey darken-4)   with white text
    * Form on add recipe page is colour #e3f2fd (blue lighten-5) with black text
