@@ -172,6 +172,25 @@ is a screenshot to show that Debug mode is turned off.
 
 ---
 ## Credits
+ ### Code
+ /*Credit:code for setting background color and pattern https://css-tricks.com/a-few-background-patterns-sites/
+   
+ <p>  body {</p>
+ <p>   --stripe: #cfd8dc;</p>
+ <p>  --bg: #e1e1e1; </p>
+
+  <p> background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,</p>
+  <p> linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,</p>
+  <p> linear-gradient(315deg, var(--bg) 25%, transparent 25%),</p>
+  <p> linear-gradient(45deg, var(--bg) 25%, transparent 25%);</p>
+  <p> background-size: 100px 100px;</p>
+  <p> background-color: var(--stripe);</p>
+}
+
+ ### Relational Database Walkthough
+   The Relational Database walkthrough provided by codeinstitute was used to assist the database setup
+   for this project.
+ 
  ### Frameworks 
  * Materialize 1.0
     - Materialize was majoritively used to build the design of application and to keep it responive
@@ -181,4 +200,5 @@ is a screenshot to show that Debug mode is turned off.
  * Pexels.com
     - Pexels.com provided free photos to create the carousel for the home page and the background image.
 
+ 
 
