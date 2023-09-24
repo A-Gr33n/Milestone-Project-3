@@ -168,6 +168,7 @@ The whole purpose for this project is to build a back end application for the us
 ## DEBUG MODE 
 Before deployment Debug mode was turn off by setting it to false to ensure that no errors will appear when opening the app. Here
 is a screenshot to show that Debug mode is turned off. 
+
 ![Debug Mode turn off ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/027c272d-fb4c-433e-b268-a6e74934fa85)
 
 ---
