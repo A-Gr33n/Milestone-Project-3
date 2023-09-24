@@ -4,35 +4,37 @@
 <!-- heading-->
 <h3 class="center-align recipe-title">Recipes</h3>
 
-<main class="container">
+
   <!-- Card for recipe-->
+ 
   <div class="row">
     {% for recipe in recipes %}
-    <div class="col s12 m6  ">
-      <div class="card   grey darken-4 center-align">
+    <div class="col s12 m4 ">
+      <div class="card  grey darken-4 center-align">
         <div class="card-image">
-          <img src="{{ recipe.image_url }}" class="responsive-img">
+          <img src="{{ recipe.image_url }}" class="responsive-img">>
         </div>
         <div class="card-content">
           <span class="card-title white-text">{{ recipe.recipe_name }}</span>
           <p class="white-text">{{ recipe.recipe_description }}</p>
-          <div class="card-action">
-            <a href="#">Ingredients
-              <p class="white-text">{{ recipe.ingredients }}</p>
-            </a>
-            <a href="#">Cook Time
-              <p class="white-text">{{ recipe.cook_time }}</p>
-            </a>
-            <a href="#">Preperation Time
-              <p class="white-text">{{ recipe.prep_time }}</p>
-            </a>
-            <a href="#">Servings
-              <p class="white-text">{{ recipe.servings }}</p>
-            </a>
-            <a href="#">Difficulty
-              <p class="white-text">{{ recipe.difficulty }}</p>
-            </a>
-          </div>
+           <div class="card-action">
+              <a href="#">Ingredients
+                <p class="white-text">{{ recipe.ingredients }}</p>
+              </a>
+              <a href="#">Cook Time
+                <p class="white-text">{{ recipe.cook_time }}</p>
+              </a>
+              <a href="#">Preperation Time
+                <p class="white-text">{{ recipe.prep_time }}</p>
+              </a>
+              <a href="#">Servings
+                <p class="white-text">{{ recipe.servings }}</p>
+              </a>
+              <a href="#">Difficulty
+                <p class="white-text">{{ recipe.difficulty }}</p>
+              </a>
+  
+            </div>
         </div>
         <!-- Modal Trigger -->
         <div class="card-action">
@@ -52,11 +54,9 @@
         </div>
       </div>
     </div>
-  </div>
-  {% endfor %}
-  </div>
-</main>
-
+   {% endfor %}
+  </div>  
+ 
 {% endblock %}
 
  
