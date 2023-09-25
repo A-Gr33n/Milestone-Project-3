@@ -66,7 +66,7 @@ Cookbook Recipes is a Back end web application created using a relational databa
 This is the current setup of the relationship diagram used to build the relationship ids for the application.
 ![drawSQL-recipe-diagram-export-2023-09-23](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/e9c0ac21-efd0-4a8c-94d5-37bb5943c916)
 
-This setup would be used for future developments to present additional elements.   
+This setup would be used for future developments to present additional features.   
 ![drawSQL-recipe-diagram-export-2023-08-16](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/affc501c-67e3-442a-8442-b1f5eb7baff6)
 
 ---
