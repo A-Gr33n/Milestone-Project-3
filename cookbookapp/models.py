@@ -1,4 +1,4 @@
-from taskmanager import db
+from cookbookapp import db
 
 
 class Recipe(db.Model):

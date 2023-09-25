@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect, url_for
-from taskmanager import app, db
-from taskmanager.models import Recipe
+from cookbookapp import app, db
+from cookbookapp .models import Recipe
 
 
 # Home
