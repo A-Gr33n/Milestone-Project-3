@@ -1,6 +1,6 @@
 # Cookbook Recipes 
 
-
+![Cookbook recipes responsiveness](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/632de2b4-0f86-4740-83e4-8c8f3fbcf07e)
 
 ---
 ## Description
@@ -16,9 +16,10 @@ Cookbook Recipes is a Back end web application created using a relational databa
 4. As a first-time and returning user, I want to edit and update my created recipes whenever I discover improvements or variations.
 5. As a first-time visitor and returning user, I want to easily delete any recipes I've created that I no longer wish to keep on the website.
 
-### User's goal
+### User's purpose
 
- * The website's purpose is to allow the user to find share update and delete recipes. 
+The user's purpose in using this recipe app is to streamline and enhance their culinary experience. With the ability to create, read, update, and delete records, this app empowers them to effortlessly manage their collection of recipes. Whether they're an amateur cook looking to experiment with new dishes or a seasoned chef seeking to organize their culinary creations, this app offers a user-friendly platform for all their recipe needs. By allowing them to create new recipes, access existing ones, make adjustments based on personal preferences or ingredient availability, and remove outdated or unused recipes, this app is a versatile tool that ensures they can easily curate their own personalized cookbook, making cooking and meal planning a seamless and enjoyable process.
+ 
 
 ---
 ## Design
@@ -116,6 +117,22 @@ add recipe page is 94-95 and the recipe page is 72.
 ![recipe page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/238163dc-444a-4b0e-a311-2b6a4c9030cc)
 
 ![New Recipe page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/79e7e865-af41-47af-b079-9b933e2ddc56)
+
+### Browser Testing
+Here are screenshots to show that the app runs on more than one web browser. 
+![Google chrome browser](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/14d3e566-9071-42b5-bd3a-65293cffbdb7)
+
+![Brave Browser ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/7d31a456-2eec-46d3-830c-1cebdbbb7bf4)
+
+![Firefox Browser](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/7086a6b6-4b31-4c89-9942-ab3213a131fc)
+
+### Testing Responsiveness 
+Here are screenshots showing the app's responsiveness on how it would be on phone and tablet devices.
+
+![ipad, tablet responsiveness](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/40444ee1-cc93-4177-b94d-1bad0872214a) 
+
+![Phone responsiveness ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d755a1ee-cbd6-4c0e-b1a9-98192baa1d9b)
+
 
 ### Testing User Expeerience UX
 1. As a first-time visitor, I want clear and intuitive navigation and user interfaces that make it easy for me to interact with and enjoy the website's features.
