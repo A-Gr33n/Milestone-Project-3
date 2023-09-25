@@ -24,7 +24,7 @@ The user's purpose in using this recipe app is to streamline and enhance their c
 ---
 ## Design
    ### Colour Scheme
-   * A background colour of --stripe: #cfd8dc; , bg: #e1e1e1;
+   * A background colour of --stripe: #cfd8dc; mainly BLUE color. , bg: #e1e1e1 a grey color tone;
    * Top navbar is colour #212121 (grey darken-4) with white text
    * Footer is colour #212121 (grey darken-4)   with white text
    * Form on add recipe page is colour #e3f2fd (blue lighten-5) with black text
