@@ -164,7 +164,8 @@ When the form is filled out the user can click on the 'edit recipe' button below
 
 The recipe will be stored in the recipe page showing the updated record.
 
-![recipe page lighthouse status](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/99011ec0-b7ef-47c8-a70d-068d1b78d582)
+![Edit update](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/5cf38128-759b-4cc5-a51a-aa91fac93907)
+
 
 5. As a first-time visitor and returning user, I want to easily delete any recipes I've created that I no longer wish to keep on the website.
 
