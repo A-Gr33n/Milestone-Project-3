@@ -1,10 +1,10 @@
 # Cookbook Recipes 
 
-![Cookbook recipes responsiveness](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/632de2b4-0f86-4740-83e4-8c8f3fbcf07e)
+![Cookbook recipes responsiveness](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/9542105a-4054-4f13-853a-ddaa9f44e511)
 
 ---
 ## Description
-Cookbook Recipes is a Back end web application created using a relational database that allows users to store and easily access cooking recipes. It contains recipe cards that include fields such as description of the recipe, ingredients, preparation steps, cooking time, and many more. A CRUD function is coded, which means the user can create, locate, display, edit, and delete records. The website has three pages: the homepage, which has a carousel slide of recipes, the recipe page where all recipes are stored and the new recipe page where the user can create any recipe they desire. Once the recipe is created, a recipe card is stored on the recipe page. 
+Cookbook Recipes is a backend web application built upon a robust relational database, designed to empower users with effortless recipe management. It features recipe cards with comprehensive information, including recipe descriptions, ingredients, preparation steps, cooking times, and more. The application incorporates a full CRUD (Create, Read, Update, Delete) functionality, enabling users to effortlessly create, retrieve, display, edit, and delete recipe records. The website comprises three key pages: the homepage, which showcases a captivating carousel of recipes and provides convenient access to both adding and viewing recipes; the recipe page, where all created recipes are stored and can be edited or deleted; and finally, the new recipe page, where users can easily input their recipe details and create their own culinary masterpieces.
 
 ---
 ## User Experience UX
@@ -140,9 +140,10 @@ Here are screenshots showing the app's responsiveness on how it would be on phon
 ### Testing User Expeerience UX
 1. As a first-time visitor, I want clear and intuitive navigation and user interfaces that make it easy for me to interact with and enjoy the website's features.
 
-On the homepage, users will immediately notice a 'Add Recipe' button, designed to seamlessly guide them to the'Add Recipe' page. Furthermore  a  navigation bar adorns the top of the screen, presenting users with three convenient links: one to return to the homepage, another to explore the recipe page, and the third to access the 'Add Recipe' page. The frontend application boasts an eye-catching and vibrant design, featuring an inviting array of colors and a captivating carousel of recipes that perfectly encapsulates the essence of the application.
+On the homepage, users will immediately notice a 'Add Recipe' button , designed to seamlessly guide them to the'Add Recipe' page. Additionally, there's a 'View Recipe' button that allows the user to access and view recipes on the recipe page. Furthermore  a  navigation bar adorns the top of the screen, presenting users with three convenient links: one to return to the homepage, another to explore the recipe page, and the third to access the 'Add Recipe' page. The frontend application boasts an eye-catching and vibrant design, featuring an inviting array of colors and a captivating carousel of recipes that perfectly encapsulates the essence of the application.
 
-![Home page (user interactions)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/f639571a-5881-4b69-a6cb-4cd96d46b06b)
+![Home page (user interactions)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/b8c00c38-2f7b-4412-b65d-e5b8f0bbba40)
+
 
 ![Navbar (user interactions)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/7b59ca71-15cc-48de-96e0-494163fcf8f4) 
 
@@ -150,7 +151,7 @@ On the homepage, users will immediately notice a 'Add Recipe' button, designed t
 
 The user will have the ability to create recipes on the 'Add recipe' page. A form is provided for the user to fill out the recipe's details.
 
-![New Recipe page (user interaction)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/dd03abe1-484a-4a8f-b10f-5f834b7852e1)
+![New Recipe page (user interaction)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/dd03abe1-484a-4a8f-b10f-5f834b7852e1) 
 
 
 Once the form is filled out the user can click on the "submit recipe" button below. 
