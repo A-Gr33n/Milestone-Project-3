@@ -77,17 +77,19 @@ This setup would be used for future developments to present additional features.
 ### CI Python Linter
 
 All Python codes were tested using CI Python Linter here are screenshots of the error results
-![init_py file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/f3adbc61-bfd2-4477-b259-bd19d6564fa4)
-![routes file test results 2 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/8aed67c7-d035-44a3-b17f-6a3397756a1c)
-![routes file test results 1](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/55ed35ed-ffe6-4aaf-9967-316a6138d1d1)
-![models file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/18b4c82c-cfdd-4272-b7d9-7eb15f5a7d11)
-![run py file test results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a52f1c7b-7323-4a26-a140-56ba03ed6e7f) 
+![init_ py file indention error](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/3da1f661-90e1-417f-877f-4ac105854e5e)
+![models file testing results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/62ea8ea1-8ff6-4d06-8be2-0ccd0c06c531)
+![routes file test results 1](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/004d4e78-4986-48ef-873f-5ae519d29c19)
+![routes file test results 2 ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/cd2bc847-86ce-4b81-af9d-f2b39779e9ed)
+![run py file test results ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/3a0a0530-aeeb-4a94-af98-20d2cf690e3e)
+
 
 These are the screenshots that show resolved errors
-![init py no errors](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/49b3bf8d-c594-40d5-b5cd-e65146007b50) 
-![no errors route py file ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/d9e53a9a-1938-459d-8342-d081653491e6)
-![run py no errors found ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/b3ec0e0a-02db-407c-ba75-4b554ce04e24)
-![models (modified) ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/015afc4e-b546-4d68-836b-5fc4cfab84b5)
+![init py no errors](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/ddf78471-48a1-49a1-956f-6116a7a10fa5)
+![run py no errors found ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/e567d3fc-c65d-4f14-8001-21aaedc010eb)
+![models (modified) ](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/86cc4b3a-8e2d-4e3a-91dd-651e1e25edf8)
+![routes file no errors](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/0e6b3146-2dfd-44d2-889e-882cfab6bb1e)
+
 
 ### JS HINT 
 JS Hint was used to test JavaScript codes and came up with these results shown below 
@@ -95,7 +97,8 @@ JS Hint was used to test JavaScript codes and came up with these results shown b
 
 Here is the modified verison of JavaScript code. All errors of code couldn't be fixed due to the style of code materialize structures
 its code.
-![js validator (modified)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/b4ca1dfa-e810-494f-9e6a-42a06cf3f61c)
+![js validator (modified)](https://github.com/A-Gr33n/Milestone-Project-3/assets/120597058/a3685524-b791-45fa-ac85-ef300fe310e4)
+
 
 
 ### W3C Validation (HTML/CSS) 
