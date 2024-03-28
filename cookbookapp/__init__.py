@@ -18,3 +18,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = uri
 db = SQLAlchemy(app)
 
 from cookbookapp  import routes  # noqa
+
